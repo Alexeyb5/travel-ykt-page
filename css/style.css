@@ -1,0 +1,620 @@
+body {
+	padding: 0;
+	margin: 0;
+	font-family: 'Playfair Display', sans-serif;
+	color: black;
+	font-size: 16px;
+}
+
+h1, h2, h5, h6 {
+	padding: 0;
+	margin: 0;
+}
+
+h2 {
+	font-size: 96px;
+	margin-bottom: 14px;
+}
+
+h3 {
+	font-size: 36px;
+	padding: 0;
+	margin: 0;
+}
+
+h4 {
+	font-size: 18px;
+	padding: 0;
+	margin: 0;
+}
+
+a {
+	text-decoration: none;
+}
+
+p {
+	margin: 0;
+	font-family: 'Open Sans';
+}
+
+ul, li {
+	display: block;
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	width: 1160px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+}
+
+.container2 {
+	width: 765px;
+	/*позиционирование по центру*/
+	margin: 0 auto;
+}
+
+
+
+.header {
+	background: url('../img/FON.png') no-repeat center top / cover;
+	padding-top: 8px;
+	height: 800px;
+}
+
+header a {
+	color: #fff;
+ }
+ .logo {
+ 	margin-right: 564px;
+ }
+
+ .menu {
+ 	display: flex;
+ }
+
+ .menu li a {
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.menu li a {
+    margin-right: 39px;
+}
+
+.nav {
+    display: flex;
+    align-items: center;
+}
+
+.offer {
+	margin-top: 228px;
+	margin-left: 278px;
+	color: #fff;
+
+}
+
+ .offer h1 {
+ 	font-size: 144px;
+
+ }
+
+ .about {
+	margin-top: 61px;
+	background: url('../img/FON2.jpg') no-repeat center top / cover;
+ }
+
+ .creater {
+	width: 333px;
+	margin-top: 53px;
+	font-weight: 400;
+	font-size: 12px;
+ }
+
+ .zag1 {
+	margin-top: 47px;
+ }
+
+ .part1 {
+	margin-top: 50px;
+	width: 768px;
+	line-height: 180%;
+ }
+
+ .zag2 {
+	margin-top: 47px;
+ }
+
+ .part2 {
+	margin-top: 50px;
+	width: 768px;
+	line-height: 180%;
+ }
+
+ .proaftora {
+	margin-top: 224px;
+ }
+ 
+.gid {
+	margin-top: 16px;
+}
+
+.pro {
+	font-size: 14px;
+	font-weight: 300;
+}
+
+.aftor {
+	display: flex;
+	align-items: center;
+}
+
+.aboutaftor {
+	margin-left: 39px;
+}
+
+.quote {
+	margin-top: 15px;
+}
+
+.Button1 {
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	padding: 6px 17px 10px;
+	gap: 38px;
+	width: 251px;
+	height: 45px;
+	left: calc(50% - 251px/2 + 365.75px);
+	top: calc(50% - 45px/2 + 38.33px);
+	border: 2px solid #53A3EA;
+	border-radius: 30px;
+	font-size: 18px;
+	text-decoration:none;
+	color: #000
+	}
+	
+	.Button1:hover{
+	background: #B6DDFF;
+	}
+	
+	.Button1:active{
+	background: #53A3EA;
+	}
+
+	.Buttonloc {
+		margin-left: 516px;
+		margin-top: 92px;
+	}
+
+	.long_line {
+		margin-left: -98px;
+		margin-top: 160px;
+	
+	}
+
+	.footer {
+		background: url('../img/Foother.png') no-repeat center top/ cover;
+	}
+	
+	.footernav {
+		display: flex;
+		justify-content: space-between;
+		margin-left: 100px;
+	}
+	
+	.foother-link {
+	   flex-direction: column;
+	   text-decoration: none;
+	   margin-right: 50px;
+	}
+	
+	.logo2 {
+	   margin-right: 220px;
+	}
+	
+	.foother-link a, p {
+	   font-size: 12px;
+	   color: #000;
+	   font-family: 'Open Sans';
+	
+	}
+	
+	.footer-link a:hover{
+	   opacity: 0.4;
+	}
+	
+	.whitebox {
+		width: 54px;
+		height: 54px;
+	}
+	
+	.whitebox1 {
+		width: 60px;
+		height: 60px;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:767px) {
+
+	.header_burger {
+		display: block;
+		position: relative;
+		width: 30px;
+		height: 20px;
+		margin-left: auto;
+	
+		z-index: 3;
+	}
+
+	.header_burger:before,
+	.header_burger:after {
+		content: '';
+		background-color: rgb(255, 255, 255);
+		position: absolute;
+		width: 100%;
+		height: 2px;
+		left: 0;
+		display: block;
+	}
+
+
+
+	.header_menu {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-color: #5F95FF;
+		z-index: 3;
+	}
+
+	.header_burger span {
+		position: absolute;
+		background-color: #fff ;
+		position: absolute;
+		left: 0;
+		width: 100%;
+		height: 2px;
+		top: 9px;
+	}
+
+	.header_burger.active span {
+		transform: scale(0);
+		transition: all 0.3s ease 0s;
+	}
+
+	.header_burger:before {
+		top: 0;
+		transition: all 0.3s ease 0s;
+	}
+	.header_burger:after {
+		bottom: 0;
+		transition: all 0.3s ease 0s;
+	}
+	
+	.header_burger.active:before {
+	transform: rotate(45deg);
+	top: 9px;	
+	}
+
+	.header_burger.active:after {
+		transform: rotate(-45deg);
+		bottom: 9px;	
+		}
+
+	html,body{
+		overflow-x: hidden
+		}
+
+	body {
+		padding: 0;
+		margin: 0;
+		font-family: 'Playfair Display', sans-serif;
+		color: black;
+		font-size: 16px;
+	}
+	
+	h1, h2, h5, h6 {
+		padding: 0;
+		margin: 0;
+	}
+	
+	h2 {
+		font-size: 55px;
+		margin-bottom: 14px;
+	}
+	
+	h3 {
+		font-size: 30px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	h4 {
+		font-size: 18px;
+		padding: 0;
+		margin: 0;
+	}
+	
+	a {
+		text-decoration: none;
+	}
+	
+	p {
+		margin: 0;
+		font-family: 'Open Sans';
+	}
+	
+	ul, li {
+		display: block;
+		padding: 0;
+		margin: 0;
+	}
+	
+	.container {
+		width: auto;
+		/*позиционирование по центру*/
+		margin: 30px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	.container2 {
+		width: auto;
+		/*позиционирование по центру*/
+		margin: 30px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+	
+	
+	
+	.header {
+		background: url('../img/FON.png') no-repeat center top / cover;
+		padding-top: 8px;
+		height: 485px;
+	}
+	
+	header a {
+		color: #fff;
+	 }
+	 .logo {
+		margin-right: auto;
+		display: flex;
+		/*239 70*/
+		width: 178px;
+		height: 52px;
+		z-index: 3;
+	 }
+	
+	 .menu {
+		display: block;
+		position: fixed;
+		left: 100%;
+		top: -100%;
+		width: 100%;
+		height: 100%;
+		background-color: #5F95FF;
+		padding: 80px 0px 0px 0px;
+		transition: all 0.3s ease 0s;
+
+		/*изменил это, когда оно не активно*/
+	}
+
+	.menu.active {
+	   top: 0;
+	   left: 0;
+	}
+
+	.menu li {
+	   margin-left: 30px;
+	   margin-top: 30px;
+   }
+	
+	.offer {
+		margin-top: 100px;
+		margin-left: auto;
+		color: #fff;
+	
+	}
+	
+	 .offer h1 {
+		 font-size: 55px;
+		 text-align: center;
+	
+	 }
+	
+	 .about {
+		margin-top: 61px;
+		background: url('../img/FON2.jpg') no-repeat center top / cover;
+	 }
+	
+	 .creater {
+		width: 333px;
+		margin-top: 53px;
+		font-weight: 400;
+		font-size: 12px;
+	 }
+	
+	 .zag1 {
+		margin-top: 47px;
+	 }
+	
+	 .part1 {
+		margin-top: 50px;
+		width: auto;
+		line-height: 180%;
+	 }
+	
+	 .zag2 {
+		margin-top: 47px;
+	 }
+	
+	 .part2 {
+		margin-top: 50px;
+		width: auto;
+		line-height: 180%;
+	 }
+	
+	 .proaftora {
+		margin-top: 224px;
+	 }
+	 
+	.gid {
+		margin-top: 16px;
+	}
+	
+	.pro {
+		font-size: 14px;
+		font-weight: 300;
+	}
+	
+	.aftor {
+		display: flex;
+		align-items: center;
+	}
+	
+	.aboutaftor {
+		margin-left: 20px;
+	}
+	
+	.quote {
+		margin-top: 15px;
+	}
+	
+	.Button1 {
+		box-sizing: border-box;
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-items: center;
+		padding: 6px 17px 10px;
+		gap: 38px;
+		width: 251px;
+		height: 45px;
+		left: calc(50% - 251px/2 + 365.75px);
+		top: calc(50% - 45px/2 + 38.33px);
+		border: 2px solid #53A3EA;
+		border-radius: 30px;
+		font-size: 18px;
+		text-decoration:none;
+		color: #000
+		}
+		
+		.Button1:hover{
+		background: #B6DDFF;
+		}
+		
+		.Button1:active{
+		background: #53A3EA;
+		}
+	
+		.Buttonloc {
+			margin-left: auto;
+			margin-top: 92px;
+		}
+	
+		.long_line {
+			margin-left: -98px;
+			margin-top: 160px;
+		
+		}
+	
+		.footer {
+			background: url('../img/Foother.png') no-repeat center top/ cover;
+		}
+		
+		.footernav {
+			display: block;
+			justify-content: space-between;
+			margin-left: 0px;
+		}
+		
+		.foother-link {
+		   flex-direction: column;
+		   text-decoration: none;
+		   margin-right: 50px;
+		   margin-top: 30px;
+		}
+		
+		.logo2 {
+		   margin-right: 220px;
+		}
+		
+		.foother-link a, p {
+		   font-size: 12px;
+		   color: #000;
+		   font-family: 'Open Sans';
+		
+		}
+		
+		.footer-link a:hover{
+		   opacity: 0.4;
+		}
+		
+		.whitebox {
+			width: 54px;
+			height: 54px;
+		}
+		
+		.whitebox1 {
+			width: 60px;
+			height: 60px;
+		}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
